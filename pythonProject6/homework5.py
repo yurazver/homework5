@@ -4,6 +4,6 @@
 #print(immutable_var)
 # нельзя изменить объект, потому что нет изменяемых объектов
 
-mutable_list =(40, [False ], "banana")
-mutable_list[1][0] = True
+mutable_list = [40, False , "banana"]
+mutable_list[1] = True
 print(mutable_list)
